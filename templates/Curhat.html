@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Webpage Title -->
+    <title>Kenopia</title>
+    
+    <!-- Styles -->
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/fontawesome-all.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style4.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link href="{{ url_for('static', filename='css/animated.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/KENOPIA_logo.png') }}">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container animated jello">
+
+            <!-- Logo -->
+            <a class="navbar-brand logo-image" href="/"><img src="{{ url_for('static', filename='img/KENOPIA_logo_2.png') }}"  alt="Kenopia"></a> 
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/curhat">Curhat</a>
+                    
+                    </li>
+                </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+      <!-- header -->
+      <div class="header">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container1">
+                        <img src="{{ url_for('static', filename='img/asis1.png') }}" alt="header-logo"  class="img-fluid header-logo">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-container"><br><br><br>
+                        <h1 class="h1-large">Kenopia Bersamamu</h1>
+                        <p class="p-large">Jangan takut rahasiamu diketahui oleh orang lain
+                            kami menjamin semua masalahmu dan keluh kesahmu tidak akan diketahui
+                            orang lain karena semua direspon Oleh AI pintar kami selamat mencoba !
+                        </p>
+                        <a href="/" class="btn-solid-lg page-scroll">Balik ke beranda</a>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- contact -->
+    <div id="contact" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Luapkan emosimu disini</h2> 
+                    <p class="p-heading">Kenopia akan membantu mencarikan penyemangat terbaik untuk kamu</p>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-container">
+                        <form action="{{ url_for('predicts1')}}" method="post">
+                            
+                            <div class="form-group">
+                                <textarea class="form-control-textarea" required="required" name="message" id="message"></textarea>
+                                <label class="label-control" for="message" >Keluh Kesahmu</label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Kirim</button>
+                            </div>
+                            
+                        </form>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea1" readonly >{{result1}}</textarea> 
+                            <label class="label-control1" for="message"> Emosi kamu </label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" readonly >{{prediction_text}}</textarea>
+                            <label class="label-control" for="message"> quotes buat kamu </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+
+
+    <!-- copyright -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Kenopia 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end copyright -->
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/bootstrap.min.jss') }}"></script> 
+    <script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/jquery.magnific-popup.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script> 
+</body>
+</html>

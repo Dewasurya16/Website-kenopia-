@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Webpage Title -->
+    <title>Kenopia</title>
+    
+    
+    <!-- Styles -->
+
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/fontawesome-all.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style4.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link href="{{ url_for('static', filename='css/animated.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/KENOPIA_logo.png') }}">
+    
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container animated wobble">
+
+            <!-- Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="{{ url_for('static', filename='img/KENOPIA_logo_2.png') }}"  alt="Kenopia"></a> 
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link page-scroll" href="/">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/curhat">Curhat</a>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- header -->
+    <div class="header">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container"><br><br><br>
+                        <h1 class="h1-large  animated bounceInDown">Kenopia Tempat Curhat</h1>
+                        <p class="p-large animated wobble">luapkan emosi dan dapatkan penyemangat bersama Artificial Inteligence
+                                        Solusi terbaik untuk mengatasi masalahmu dan curhat tanpa diketahui oleh
+                                        siapapun  karena kami adalah pendengar yang baik dan mampu menyimpan segala keluh kesahmu
+                                    yang tidak ingin diketahui siapapun</p>
+                        </p>
+                        
+                        <a href="/curhat" class="btn-solid-lg page-scroll animated hinge">Mulai Curhat</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image-container animated zoomInDown">
+                        <img src="{{ url_for('static', filename='img/stres.png') }}" alt="header-logo"  class="img-fluid header-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- details -->
+    <div id="details" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container animated bounceInLeft ">
+                        <img src="{{ url_for('static', filename='img/ok.png') }}" alt="details" class="img-fluid">
+                    </div>
+                </div>   
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Pendengar Semua Masalahmu</h2>
+                        <p>Sebuah situs yang didedasikan untuk kalian yang memerlukan penyamangat atau hanya sekedar pendengar keluh kesah anda,
+                            yang bisa diakses 24 jam penuh dan dimanapun anda berada.</p>
+                        <p>AI yang kami buat sudah dilatih untuk menentukan emosi sesuai yang anda ceritakan dan akan membalas dengan quotes sesuai emosi anda</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end details -->
+
+    <!-- features -->
+    <div id="features" class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <i class="fas fa-robot"></i>
+                        <h4>Dijawab Oleh AI</h4>
+                        <p>Semua keluh kesahmu Direspon Oleh AI pintar yang sudah kami latih sedemikian rupa! jadi tidak usah takut rahasia anda diketahui manusia </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <i class="fas fa-cog"></i>
+                        <h4>Mudah digunakan </h4>
+                        <p>Kamu bisa menggunakan website kenopia dimana saja dan kapan saja AI kami siap menemani anda setiap saat dibutuhkan</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <i class="fas fa-file-alt"></i>
+                        <h4>Rahasia anda aman</h4>
+                        <p>Rahasia keluh kesahmu kami jaman aman karena tidak ada campur tangan dari manusia dalam responya keluh kesahmu semua direspon oleh AI </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end features -->
+
+    <!-- about -->
+    <div id="about" class="basic-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <h2>Kenopia Siap Menerima Apapun Keluh Kesahmu </h2>
+                        <p>Buatlah harimu lebih bersemangat dan lebih ceria
+                            dan luapkanlah semua emosimu bersama kenopia.
+                            karena menjalani hari akan terasa nyaman dan nikmat 
+                            jika hati senang dan pikiran tenang</p>
+                        <p>Kenopia siap menyemangati anda dimanapun kapan pun tanpa adanya
+                            batasan waktu dan tempat, Karena kenopia peduli denganmu !
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='img/robot.png') }}" alt="about" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <h2>Fitur Kenopia</h2>
+                        <ul class="list-unstyle li-space-lg">
+                            <li>1. Memiliki AI yang telah dilatih agar bisa membedakan emosi.</li>
+                            <li>2. Semua respon dijawab oleh AI,jadi hanya kamu yang tau rahasiamu.</li>
+                            <li>3. Bisa digunakan kapanpun dimanapun setiap saat dan tidak perlu login.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container p-2 text-center justify-content-center" style="font-family: 'Fira Code', monospace;">
+                <h1 class="fadeInUp animated" style="font-size: 48px;"><b>About Us</b></h1>
+                <p class="p-5 ms-5 me-5 fadeInUp animated">Klasifikasi emosi ini kami buat dengan tujuan memenuhi proyek akhir pembelajaran
+                    pada Studi Independen yang diselenggarakan oleh Kampus Merdeka pada Mitra
+                    Orbit Future Academy dalam kelas AI Mastery Program. Kami membuat sebuah model
+                    Artificial Intelligence yang dapat mengklasifikasi emosi berdasarkan teks pengguna
+                    dan akan memberikan quotes motivasi sesuai dengan klasifikasi emosi yang diberikan.
+                    Projek ini dibuat agar mendorong suasana hati user menjadi lebih baik, dan semangat menjalani aktivitas.
+                    Apabila suasana hati tidak baik maka pikiran otak kita tidak akan berfungsi dengan maksimal.
+                    Dengan akurasi model sekitar 63% kami yakin 
+                    adanya website ini lebih memudahkan dan juga membantu masyarakat yang ingin mendapatkan dorongan suasana hati menjadi lebih baik </p>
+            </div>
+                <div class="container p-2 text-center">
+                    <h1 class="pb-5 fadeInUp animated" style="font-size: 48px;"><b>Team</b></h1>
+                    <div class="row pt-3 d-flex p-1 justify-content-around fadeInUp animated">
+                        <div class="col">
+                            <img src="{{ url_for('static', filename='img/Dewa.JPG') }}" alt="" style="max-height: 150px; width: auto;">
+                            <p class="pt-3"><b>Dewa Sinar Surya</b> <br>
+                            Modeling dan Labeling Dataset </p>
+                        </div>
+                        <div class="col">
+                            <img src="{{ url_for('static', filename='img/farah.jpeg') }}" alt="" style="max-height: 150px; width: auto;" >
+                            <p class="pt-3"><b>Farah Safira Afiyah</b> <br>
+                            Web Design dan labeling Dataset</p>
+                        </div>
+                        <div class="col">
+                            <img src="{{ url_for('static', filename='img/Desi.jpg') }}" alt="" style="max-height: 150px; width: auto;" >
+                            <p class="pt-3"><b>Desy Armida Septiana</b> <br>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img src="{{ url_for('static', filename='img/Balqis.jpg') }}" alt="" style="max-height: 150px; width: auto;" >
+                            <p class="pt-3"><b>Sherlyana Balqis</b> <br>
+                            Search Dataset dan Pembuatan Laporan Team </p>
+                        </div>
+                        <div class="col">
+                            <img src="{{ url_for('static', filename='img/iqbal.jpeg') }}" alt="" style="max-height: 150px; width: auto;" >
+                            <p class="pt-3"><b>Muhammad Iqbal</b> <br> 
+                            Deployment dan labeling Dataset</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container p-2 text-center" style="color: #1F2A9D;">
+                    <h1 class="pb-5 pt-4 fadeInUp animated" style="font-size: 48px;"><b>Thanks to</b></h1>
+                    <div class="row pt-3 d-flex justify-content-around align-items-center" style="max-height: 160px;">
+                        <div class="col fadeInLeft animated">
+                            <img src="{{ url_for('static', filename='img/Gundar.png') }}" alt="" style="max-width: 100px; max-height: auto;">
+                        </div>
+                        <div class="col fadeInLeft animated">
+                            <img src="{{ url_for('static', filename='img/Udinus.png') }}" alt="" style="max-width: 100px; max-height: auto;">
+                        </div>
+                        <div class="col fadeInLeft animated">
+                            <img src="{{ url_for('static', filename='img/UMR.png') }}" alt="" style="max-width: 130px; max-height: auto;">
+                        </div>
+                        <div class="col fadeInLeft animated">
+                            <img src="{{ url_for('static', filename='img/Umrah.png') }}" alt="" style="max-width: 105px; max-height: auto;">
+                        </div>
+                        <div class="col fadeInRight animated">
+                            <img src="{{ url_for('static', filename='img/orbit.png') }}" alt="" style="max-width: 200px; max-height: auto;">
+                        </div>
+                        <div class="col fadeInRight animated">
+                            <img src="{{ url_for('static', filename='img/MASTER.png') }}" alt="" style="max-width: 140px; max-height: auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- end about -->
+
+    <!-- call to action -->
+    <div>
+        <div class="container">
+            <div class="row">
+                    <hr class="my-4">
+            </div>
+            </div>
+    <div class="basic-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h4>Ingin memulai curhat dengan AI?</h4>
+                        <a href="/curhat" class="btn-solid-lg">Mulai Curhat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end call to action -->
+
+
+   
+    <!-- copyright -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Kenopia 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end copyright -->
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/bootstrap.min.jss') }}"></script> 
+    <script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/jquery.magnific-popup.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script> 
+</body>
+</html>
