@@ -29,8 +29,8 @@ responses such as praise or motivation. So that users do not feel afraid of gett
   
   
 ### Capstone Project
-<img align ="Center" alt="coding" width="600"   src="https://github.com/Dewasurya16/wowok/blob/master/Tampilan%20awal.png">
-<img align ="Center" alt="coding" width="600"   src="https://github.com/Dewasurya16/wowok/blob/master/tampilan%20curhat.png">
+<img align ="Center" alt="coding" width="400"   src="https://github.com/Dewasurya16/wowok/blob/master/Tampilan%20awal.png">
+<img align ="Center" alt="coding" width="400"   src="https://github.com/Dewasurya16/wowok/blob/master/tampilan%20curhat.png">
 
 
 ### Made with
