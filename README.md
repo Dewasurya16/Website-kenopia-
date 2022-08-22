@@ -79,7 +79,7 @@ Recomendation
 
 - It is recommended to install the required libraries before running Kenopia to avoid errors and it is recommended to use Anaconda terminal to avoid clashes between libraries on the computer
 
--Anaconda Download [Click It](https://https://docs.anaconda.com/anaconda/install//)
+-Anaconda Download [Click It](https://docs.anaconda.com/anaconda/install/)
 
 ### We from kenopia would like to say a big thank you for your interest in trying the kenopia project, I hope your activities run smoothly without any problems expressing your emotions without anyone knowing using kenopia
 
