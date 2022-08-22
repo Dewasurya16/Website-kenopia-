@@ -35,7 +35,7 @@ responses such as praise or motivation. So that users do not feel afraid of gett
   - Dataset: Kaggle Emotion dataset, Twitter Emotion Dataset
   
 <br>
-## How to run on local recommendation Using ###ANACONDA 
+ How to run on local recommendation Using ANACONDA 
 
 -##Before installing make sure the computer has flask installed  click For [Documentation](https://flask.palletsprojects.com/en/2.2.x/installation/)
 
