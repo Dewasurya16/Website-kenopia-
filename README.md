@@ -37,7 +37,7 @@ responses such as praise or motivation. So that users do not feel afraid of gett
 <br>
  How to run on local recommendation Using ANACONDA 
 
--Before installing make sure the computer has flask installed  click For [Documentation](https://flask.palletsprojects.com/en/2.2.x/installation/)
+- Before installing make sure the computer has flask installed  click For [Documentation](https://flask.palletsprojects.com/en/2.2.x/installation/)
 
 - Clone the repo project
 
