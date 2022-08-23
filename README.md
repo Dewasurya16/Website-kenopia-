@@ -22,7 +22,7 @@ responses such as praise or motivation. So that users do not feel afraid of gett
   *  All typed complaints are processed by AI
 
 * Deep Learning AI
-  *  Using the BERT Model and the DEEP LEARNING Method.
+  *  Using the BERT Algorithm and the DEEP LEARNING Method.
 
 * Support
   *  Supporting people who want to vent their complaints and vent without anyone knowing
